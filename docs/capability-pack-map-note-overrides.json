@@ -2,5 +2,76 @@
   "schema_version": 1,
   "map_version": "0.1.0",
   "generated_on": "2026-09-24",
-  "notes": []
+  "notes": [
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch01-regulatory-landscape.md",
+      "note": "FDA device pathways overview: 510(k), De Novo, PMA and where software functions fit"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch10-software-changes-510k.md",
+      "note": "Decision framework for when a software change triggers a new 510(k)"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch12-submissions-estar.md",
+      "note": "eSTAR template structure and mandatory electronic-submission dates"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "glossary.md",
+      "note": "Shared FDA device-software terms used across the pack"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "cheatsheet.md",
+      "note": "Cross-chapter decision checklists for device software questions"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch02-premarket-software-documentation.md",
+      "note": "Basic vs Enhanced documentation levels and premarket software content"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch09-premarket-cyber-documentation.md",
+      "note": "Assembling the cybersecurity section of a premarket submission"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch03-software-validation.md",
+      "note": "GPSV validation principles minus the CSA-superseded section 6"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch04-computer-software-assurance.md",
+      "note": "Risk-based CSA for production and quality-system software"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch05-qmsr-quality-management.md",
+      "note": "QMSR obligations under 21 CFR 820 after the 2026-02-02 transition"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch06-cybersecurity-qms.md",
+      "note": "Secure product development framework and postmarket cyber QMS processes"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch07-cybersecurity-premarket.md",
+      "note": "Premarket cyber content: threat modelling, SBOM, security requirements, labelling"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch08-software-function-scope.md",
+      "note": "OTS/SOUP expectations and MDDS software-function device boundaries"
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch11-clinical-decision-support.md",
+      "note": "CDS device vs non-device criteria and the four-criteria test"
+    }
+  ]
 }

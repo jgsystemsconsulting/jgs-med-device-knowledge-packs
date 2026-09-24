@@ -77,14 +77,17 @@ This list exists so the repo never ships something that triggers a takedown.
 | **Def Stan documents (UK defence standards)** | Case-by-case: Crown copyright, downloads free of charge but registration-gated via the DSTAN portal. **Def Stan 00-051 is UNVERIFIED** pending a registered DSTAN user recording the cover licence statement; excluded until then. If OGL v3.0 applies inside the document → Tier 2; if bespoke MOD-consent/no-reproduction terms → stays Excluded. (programme research 2026-09-24, docs/superpowers ingest bundle.) |
 | **IMO conventions and class-society rules** (e.g. SOLAS, MARPOL, classification society rule sets) | Paywalled or unclear reuse terms; no redistribution/derivative grant identified. (programme research 2026-09-24, docs/superpowers ingest bundle.) |
 | **OMG formal specifications** (UML, SysML, BPMN, UAF, CORBA, MOF, XMI, OCL, DDS…) | OMG Specification License public grant is informational-use-only: the spec "will not be copied or posted on any network computer … or … transferred for commercial purposes" and "no modifications are made to this specification." A hosted, transformed pack breaches both. Cite + link to the OMG download; never package. Carried from the exemplar vetting. |
+| **ISO 13485:2016** (medical devices quality management systems) | Paywalled, all-rights-reserved ISO standard. Incorporated by reference into 21 CFR 820 by the QMSR final rule; incorporation does not put ISO text into the public domain. Name and FDA-stated obligations only; never package ISO clause text. (med-device sector build 2026-09-24, docs/superpowers/specs/2026-09-24-med-device-sector-repo.md.) |
+| **ISO 9000:2015** (quality management vocabulary, clause 3) | Paywalled, all-rights-reserved ISO standard. Clause 3 is incorporated by reference alongside ISO 13485:2016 into Part 820; same hard stop. (med-device sector build 2026-09-24.) |
+| **ISO 14971** (application of risk management to medical devices) | Paywalled, all-rights-reserved ISO standard. No redistribution or derivative grant. Cite by name only. (med-device sector build 2026-09-24.) |
+| **IEC 62304** (medical device software life cycle processes) | Paywalled, all-rights-reserved IEC standard. No redistribution or derivative grant. Cite by name only. (med-device sector build 2026-09-24.) |
 
 > If you are licensed to read one of these (e.g. an employer's standards seat), that
 > licence is **yours**, not the repo's. Building a pack from it for
 > your own private use may be fine; **publishing that pack here is not.** Keep
 > source-restricted packs in a private/local skills directory, never in this repo.
 
-**Not yet vetted:** ISO 14971, IEC 62304, ISO/IEC 42001. A sector build adds these rows
-only after its own research pass records licence status.
+**Not yet vetted:** ISO/IEC 42001 (AI management systems). Other ISO/IEC device standards listed above are now Excluded after the med-device research pass.
 
 ---
 
@@ -110,6 +113,10 @@ For industry families in this table, the per-document capture rule (including th
 ## Cleared families (programme research 2026-09-24)
 
 tier-1 US federal publisher works cleared for sector use (FDA, NHTSA, NRC, FAA orders); tier-2 gov.uk OGL JSPs, per-document capture.
+
+| Source set | Basis |
+|---|---|
+| **FDA device-software reference set S1-S12 + S4a** (Content of Premarket Submissions for Device Software Functions; General Principles of Software Validation; Computer Software Assurance for Production and Quality Management System Software; Medical Devices Quality System Regulation Amendments final rule; current 21 CFR Part 820 text; Cybersecurity in Medical Devices QMS and premarket content; Clinical Decision Support Software; Off-The-Shelf Software Use in Medical Devices; Deciding When to Submit a 510(k) for a Software Change to an Existing Device; Medical Device Data Systems; eSTAR and related submission template materials; plus the FDA QMSR overview page S4a) | US Government works, 17 U.S.C. § 105 (documents) and FDA Website Policies for S4a. Cleared Tier 1 for the fda-med-device pack (med-device sector build 2026-09-24). |
 
 Sector builds start from this explicit allowlist; anything not listed still goes through
 the tiers above.

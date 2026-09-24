@@ -16,6 +16,98 @@
     "cheatsheet.md"
   ],
   "support_policy": "Support-file membership is encoded per assignment in `assignments` (`is_support` true rows); this field is descriptive and not a derivation rule.",
-  "cluster_names": [],
-  "assignments": []
+  "cluster_names": [
+    "Regulatory Landscape & Pathways",
+    "Premarket Software Documentation",
+    "Software Validation & Assurance",
+    "Quality Management System",
+    "Cybersecurity",
+    "Software Function Scope"
+  ],
+  "assignments": [
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch01-regulatory-landscape.md",
+      "cluster": "Regulatory Landscape & Pathways",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch10-software-changes-510k.md",
+      "cluster": "Regulatory Landscape & Pathways",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch12-submissions-estar.md",
+      "cluster": "Regulatory Landscape & Pathways",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "glossary.md",
+      "cluster": "Regulatory Landscape & Pathways",
+      "is_support": true
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "cheatsheet.md",
+      "cluster": "Regulatory Landscape & Pathways",
+      "is_support": true
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch02-premarket-software-documentation.md",
+      "cluster": "Premarket Software Documentation",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch09-premarket-cyber-documentation.md",
+      "cluster": "Premarket Software Documentation",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch03-software-validation.md",
+      "cluster": "Software Validation & Assurance",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch04-computer-software-assurance.md",
+      "cluster": "Software Validation & Assurance",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch05-qmsr-quality-management.md",
+      "cluster": "Quality Management System",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch06-cybersecurity-qms.md",
+      "cluster": "Cybersecurity",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch07-cybersecurity-premarket.md",
+      "cluster": "Cybersecurity",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch08-software-function-scope.md",
+      "cluster": "Software Function Scope",
+      "is_support": false
+    },
+    {
+      "pack": "fda-med-device",
+      "chapter": "ch11-clinical-decision-support.md",
+      "cluster": "Software Function Scope",
+      "is_support": false
+    }
+  ]
 }

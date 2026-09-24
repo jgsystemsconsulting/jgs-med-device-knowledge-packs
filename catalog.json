@@ -5,6 +5,28 @@
   "scope": "Medical Device",
   "version": "0.1.0",
   "updated": "2026-09-24",
-  "packs": [],
-  "planned": []
+  "packs": [
+    {
+      "slug": "fda-med-device",
+      "title": "FDA Device Software Guidance and Quality Management System Regulation (13-source reference set)",
+      "publisher": "U.S. Food and Drug Administration (CDRH/CBER); reconstructed by JG Systems Consulting Ltd",
+      "source_version": "Source set pinned 2026-09-24 (documents dated 2002-01-11 to 2026-02-03)",
+      "license": "Public Domain (US Government work, 17 U.S.C. 105)",
+      "license_tier": 1,
+      "commercial_use": true,
+      "chapters": 12,
+      "status": "live"
+    }
+  ],
+  "planned": [
+    {
+      "slug": "med-device-eu",
+      "title": "EU / UK medical-device software guidance (MDR, MDCG, UKCA) - planned second run",
+      "publisher": "EU / UK authorities (per-document vetting)",
+      "license": "TBD per document (tier 2/3)",
+      "license_tier": 2,
+      "commercial_use": false,
+      "status": "planned"
+    }
+  ]
 }

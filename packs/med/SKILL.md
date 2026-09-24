@@ -71,14 +71,28 @@ Output goes in the reply unless the user names a file. A deliverable with no mat
 ### Topics
 | Topic | Keywords | Packs (best first) |
 |---|---|---|
+| Premarket submissions & pathways | 510(k), De Novo, PMA, premarket submission, submission pathway, substantial equivalence, eSTAR | `fda-med-device` |
+| Software documentation & levels of concern | documentation level, level of concern, premarket software content, basic documentation, enhanced documentation, software description | `fda-med-device` |
+| Validation & computer software assurance | validation, computer software assurance, CSA, computer system validation, unscripted testing, verification, risk-based testing | `fda-med-device` |
+| QMSR & quality management | QMSR, quality management system, 21 CFR 820, quality system regulation, ISO 13485 obligation, GMP, production and quality system software | `fda-med-device` |
+| Medical device cybersecurity | cybersecurity, SBOM, software bill of materials, threat modelling, secure product development, cyber device, 524B, vulnerability, security architecture | `fda-med-device` |
+| Clinical decision support | clinical decision support, CDS, non-device software, four criteria, decision support boundaries | `fda-med-device` |
+| Off-the-shelf software | off-the-shelf, OTS, SOUP, third-party software, COTS, obsolescence, OTS verification | `fda-med-device` |
+| Software function scope boundaries | software function, MDDS, medical device data systems, image storage, image communication, device definition, is it a device | `fda-med-device` |
+| Software changes & resubmission | software change, 510(k) trigger, change assessment, modified device, does my change need a new submission, change documentation | `fda-med-device` |
 
 ### Agency contexts
 | Agency | Keywords | Packs |
 |---|---|---|
+| FDA | FDA, CDRH, CBER, guidance document, 21 CFR, 510(k), De Novo, PMA, QMSR | `fda-med-device` |
 
 ### Deliverables
 | Deliverable | Keywords | Draft | Review | Verify |
 |---|---|---|---|---|
+| Premarket submission section | 510(k) submission, eSTAR, submission section, software description, premarket draft | `fda-med-device` | `fda-med-device` | `fda-med-device` |
+| Software validation package | validation plan, validation report, CSA record, assurance activities, test protocol | `fda-med-device` | `fda-med-device` | `fda-med-device` |
+| Cybersecurity documentation | SBOM, threat model, cybersecurity section, security architecture, cybersecurity management plan | `fda-med-device` | `fda-med-device` | `fda-med-device` |
+| Software change assessment | change assessment, 510(k) determination, impact assessment, change log rationale | `fda-med-device` | `fda-med-device` | `fda-med-device` |
 
 ### Licences
 | Pack | Licence |

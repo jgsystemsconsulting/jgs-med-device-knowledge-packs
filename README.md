@@ -8,13 +8,16 @@ SPDX-License-Identifier: MIT
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT%20(tooling)-blue" alt="License: MIT (tooling)">
   <img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version 0.1.0">
-  <img src="https://img.shields.io/badge/type-template-orange" alt="Template repository">
 </p>
 
 <p align="center">
-  <strong>Starting point for a sector knowledge-pack catalogue. This repository is a
-  TEMPLATE: it is not installed as packs. Mint your own sector repo from it.
-  (Minted repos: replace this section with your catalogue introduction.)</strong>
+  <strong>An installable catalogue of knowledge-pack skills for coding agents that
+  build medical device software. The fda-med-device pack distills 13 FDA sources
+  into reference notes covering FDA device-software guidance, computer system
+  validation, the Quality Management System Regulation (QMSR), cybersecurity, and
+  premarket submissions; the /med orchestrator routes free-text sector questions to
+  the right pack. This catalogue provides engineering knowledge, not legal or
+  regulatory advice; EU/UK guidance packs are forthcoming.</strong>
 </p>
 
 **Copyright (c) 2026 JG Systems Consulting Ltd. - MIT License (tooling); pack content under each source's own licence (see [NOTICE](NOTICE)).**

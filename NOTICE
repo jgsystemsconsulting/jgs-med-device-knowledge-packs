@@ -32,6 +32,11 @@ Third-party source attributions (one block per shipped content pack)
 -->
 
 -----------------------------------------------------------------------------------
+Pack content derives from publications of the U.S. Food and Drug Administration
+(FDA). Courtesy attribution is given to the FDA as the original publisher; the FDA
+is not affiliated with, nor does it endorse, this product.
+-----------------------------------------------------------------------------------
+
 The build pipeline uses the jgs-reference-skill extraction engine (MIT License,
 © JG Systems Consulting Ltd; a fork of book-to-skill, © the book-to-skill authors).
 It is a build tool, not a packaged source.

@@ -15,4 +15,4 @@ All notable changes to this project are documented here. Format follows
 
 ### Added
 
-- Template initialised from jgs-se-knowledge-packs.
+- Initial public release: fda-med-device knowledge pack (13 FDA sources) and /med orchestrator.

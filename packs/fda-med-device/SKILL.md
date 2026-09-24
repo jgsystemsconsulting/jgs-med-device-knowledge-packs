@@ -1,6 +1,6 @@
 ---
 name: fda-med-device
-description: "Reconstructed reference notes on US FDA medical-device software regulation, built from thirteen public-domain sources (FDA guidance, the QMSR final rule, current 21 CFR 820 text, and the FDA QMSR page; documents dated 2002-01-11 to 2026-02-03, pinned 2026-09-24). Use for regulatory pathways and premarket submissions (510(k), De Novo, PMA, eSTAR), premarket software documentation and levels of concern, software validation and Computer Software Assurance, the Quality Management System Regulation (QMSR, 21 CFR 820), medical-device cybersecurity (secure product development, SBOMs, FD&C Act section 524B, labelling), clinical decision support boundaries, off-the-shelf software, MDDS and other software-function scope questions, and the 510(k) software-change trigger. SCOPE LIMITS: US FDA device regulation only; no EU MDR or UKCA content (a med-device-eu pack is planned); no ISO 13485, ISO 14971, or IEC 62304 text, which are named and summarized only as FDA obligations; no drug, biologic, or combination-product rules; reflects the pinned source dates, not later FDA actions; synthesized reference notes, not legal advice and not a substitute for the guidance documents. LICENCE: Public Domain (US Government work, 17 U.S.C. 105)."
+description: "Reconstructed reference notes on US FDA medical-device software regulation, built from thirteen public-domain sources (FDA guidance, the QMSR final rule, current 21 CFR 820 text, and the FDA QMSR page; documents dated 2002-01-11 to 2026-02-03, pinned 2026-09-24). Use for regulatory pathways and premarket submissions (510(k), De Novo, PMA, eSTAR), premarket software documentation levels (Basic or Enhanced), software validation and Computer Software Assurance, the Quality Management System Regulation (QMSR, 21 CFR 820), medical-device cybersecurity (secure product development, SBOMs, FD&C Act section 524B, labelling), clinical decision support boundaries, off-the-shelf software, MDDS and other software-function scope questions, and the 510(k) software-change trigger. SCOPE LIMITS: US FDA device regulation only; no EU MDR or UKCA content (a med-device-eu pack is planned); no ISO 13485, ISO 14971, or IEC 62304 text, which are named and summarized only as FDA obligations; no drug, biologic, or combination-product rules; reflects the pinned source dates, not later FDA actions; synthesized reference notes, not legal advice and not a substitute for the guidance documents. LICENCE: Public Domain (US Government work, 17 U.S.C. 105)."
 ---
 
 <!-- argument-hint: [FDA device software topic, regulation question, submission section, chapter number] -->
@@ -14,16 +14,16 @@ description: "Reconstructed reference notes on US FDA medical-device software re
 Use this skill for US FDA questions about software in or around medical devices: what documentation a premarket submission needs, how software must be validated, what the Quality Management System Regulation requires after the 2026-02-02 transition, what cybersecurity artifacts FDA expects, where a software function stops being a device (clinical decision support, MDDS), when a software change triggers a new 510(k), and how eSTAR structures the submission. The pack answers with FDA's own frameworks, cited by chapter and source row.
 
 ## How to Use This Skill
-- **Without arguments**: read the Core Frameworks below, covering levels of concern, validation vs assurance, the QMSR transition, the SBOM and 524B obligations, and the 510(k) change trigger.
-- **With a topic**: use the Topic Index to find the chapter, then ask directly (e.g. "what documentation level applies for a moderate level of concern", "does this OTS library need enhanced testing").
+- **Without arguments**: read the Core Frameworks below, covering documentation levels, validation vs assurance, the QMSR transition, the SBOM and 524B obligations, and the 510(k) change trigger.
+- **With a topic**: use the Topic Index to find the chapter, then ask directly (e.g. "what documentation level applies for this device", "does this OTS library need enhanced testing").
 - **With a chapter**: ch01 orientation; ch02-ch04 documentation and assurance; ch05-ch07 QMSR and cybersecurity; ch08-ch09 scope boundaries and the cybersecurity submission package; ch10-ch12 changes, CDS, and eSTAR.
 
 Supporting files: `glossary.md`, `cheatsheet.md`.
 
 ## Core Frameworks & Mental Models
 
-### Levels of concern and documentation levels (S1)
-FDA assigns device software a **level of concern**: Minor, Moderate, or Major, driven by the risk a device failure or incorrect output creates (whether it could present a hazardous situation, and how severe). The concern level selects a **documentation level** for the submission: Basic or Enhanced. Enhanced adds depth: more detailed architecture description, richer verification and validation evidence, and fuller descriptions of how risks were addressed. The mental model: the question is never "how much documentation can we get away with" but "how bad is it if this software fails", and the paperwork follows the harm.
+### Documentation Level: Basic vs Enhanced (S1)
+The 2023 premarket software guidance sets a two-value axis, the **Documentation Level**, picked by a risk-based determination rather than a concern-classification scheme. **Enhanced Documentation** applies where a failure or flaw of any device software function could present a hazardous situation with a probable risk of death or serious injury, to a patient, a user, or others in the environment of use; **Basic Documentation** applies everywhere Enhanced does not. The determination weighs all known and foreseeable software hazards, including those from reasonably foreseeable misuse and from cybersecurity compromises, assessed before risk controls are applied and in the context of the device's intended use; the level reflects the device as a whole, not one function in isolation. Enhanced adds submission depth: fuller development, configuration-management and maintenance practices, richer testing and V&V evidence, software version history, and unresolved-anomaly disclosure. A Class III device or a combination-product constituent part defaults to Enhanced; arguing down to Basic takes a documented rationale, and FDA can still ask for more during review. The mental model: two levels, one question ("could this software fail into death or serious injury before risk controls?"), and the answered level is a floor, not a ceiling.
 
 ### Software validation principles (S2)
 The General Principles of Software Validation frame validation as **confirmation by objective evidence** that software conforms to its specifications and that those specifications match user needs and intended use. Validation spans the whole lifecycle, not a final test phase; changes after initial validation get their own validation effort scaled to the change; and the independence of review scales with risk. One boundary matters for reading everything else: Section 6 of this guidance (validation of automated process equipment and quality system software) is superseded by the CSA guidance (S3), while the rest remains the authority for device software.
@@ -53,7 +53,7 @@ The electronic Submission Template And Repository (eSTAR) structures 510(k) and 
 | # | Chapter | Key content |
 |---|---------|-------------|
 | [ch01](chapters/ch01-regulatory-landscape.md) | Regulatory landscape and pathways | Which document governs which question; 510(k)/De Novo/PMA paths; where software functions fit; MDDS framing |
-| [ch02](chapters/ch02-premarket-software-documentation.md) | Premarket software documentation | Levels of concern, Basic vs Enhanced documentation, required elements, risk as the driver (S1) |
+| [ch02](chapters/ch02-premarket-software-documentation.md) | Premarket software documentation | Documentation Level (Basic vs Enhanced), the risk-based determination, required elements per level (S1) |
 | [ch03](chapters/ch03-software-validation.md) | Software validation principles | GPSV lifecycle validation, validation of changes, independence, records; Section 6 superseded (S2) |
 | [ch04](chapters/ch04-computer-software-assurance.md) | Computer software assurance | Risk-based assurance for production and QMS software, intended use, activity selection, records (S3) |
 | [ch05](chapters/ch05-qmsr-quality-management.md) | QMSR quality management | 21 CFR 820 after 2026-02-02, ISO 13485 incorporation by reference, FDA additions, transition (S4, S4a, S5) |
@@ -78,10 +78,10 @@ The electronic Submission Template And Repository (eSTAR) structures 510(k) and 
 - **Cybersecurity labelling** → ch07, ch09
 - **De Novo pathways** → ch01, ch12
 - **Documentation levels (premarket)** → ch02
+- **Documentation Level determination (risk-based)** → ch02
 - **eSTAR (510(k) and De Novo)** → ch12
 - **Image storage and communication functions** → ch08, ch01
 - **Incorporation by reference (ISO 13485)** → ch05
-- **Levels of concern** → ch02
 - **MDDS (medical device data systems)** → ch08, ch01
 - **Non-device software functions** → ch11, ch08, ch01
 - **Off-the-shelf software (OTS/SOUP)** → ch08
@@ -91,7 +91,7 @@ The electronic Submission Template And Repository (eSTAR) structures 510(k) and 
 - **Postmarket cybersecurity** → ch06, ch07
 - **Premarket cybersecurity package** → ch09, ch07
 - **QMSR (Quality Management System Regulation)** → ch05
-- **Risk to health (level driver)** → ch02, ch10
+- **Risk to health (documentation and change driver)** → ch02, ch10
 - **SBOM (software bill of materials)** → ch07, ch06
 - **Secure product development framework (SPDF)** → ch06
 - **Security architecture views** → ch07
@@ -104,7 +104,7 @@ The electronic Submission Template And Repository (eSTAR) structures 510(k) and 
 
 ## Supporting Files
 
-- [glossary.md](glossary.md): terms as FDA uses them (510(k), CSA, CDS, IBR, level of concern, MDDS, OTS/SOUP, QMSR, SBOM, eSTAR), with chapter references
+- [glossary.md](glossary.md): terms as FDA uses them (510(k), CSA, CDS, IBR, documentation level, MDDS, OTS/SOUP, QMSR, SBOM, eSTAR), with chapter references
 - [cheatsheet.md](cheatsheet.md): decision rules covering whether a change needs a 510(k), what documentation level applies, what cyber artifacts are expected, and what validation approach fits
 
 ---

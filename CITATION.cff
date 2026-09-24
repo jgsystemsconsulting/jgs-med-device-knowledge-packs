@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Medical Device Knowledge Packs"
+version: 0.1.0
+date-released: 2026-09-24
+url: "https://github.com/jgsystemsconsulting/jgs-med-device-knowledge-packs"
+repository-code: "https://github.com/jgsystemsconsulting/jgs-med-device-knowledge-packs"
+license: MIT
+type: software
+keywords:
+  - med-device
+authors:
+  - name: "JG Systems Consulting Ltd"
+    website: "https://www.jgsystemsconsulting.com"

@@ -1,0 +1,12 @@
+{
+  "name": "Medical Device",
+  "description": "JG Systems Consulting catalogue of licence-vetted Medical Device knowledge-pack skills for coding agents.",
+  "owner": { "name": "JG Systems Consulting Ltd.", "url": "https://github.com/jgsystemsconsulting/jgs-med-device-knowledge-packs" },
+  "plugins": [
+    {
+      "name": "med-device",
+      "source": "./",
+      "description": "Installable Medical Device knowledge packs reconstructed from open sources."
+    }
+  ]
+}

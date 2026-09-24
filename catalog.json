@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "repository": "jgs-med-device-knowledge-packs",
+  "sector_slug": "med-device",
+  "scope": "Medical Device",
+  "version": "0.1.0",
+  "updated": "2026-09-24",
+  "packs": [],
+  "planned": []
+}

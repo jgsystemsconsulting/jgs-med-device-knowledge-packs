@@ -9,10 +9,13 @@ dau.edu
 dla.mil
 dod.mil
 dodcio
+ecfr.gov
 energy.gov
 eur-lex
 europa.eu
 everyspec.com
+fda.gov
+federalregister.gov
 govinfo.gov
 nasa.gov
 nato.int
@@ -22,6 +25,3 @@ ntrs
 ocw.mit
 omg.org
 sebokwiki
-fda.gov
-ecfr.gov
-federalregister.gov

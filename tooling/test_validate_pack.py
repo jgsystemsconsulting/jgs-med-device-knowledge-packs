@@ -125,13 +125,13 @@ def main() -> int:
         errs = validate_pack.check_pack(orch_np)
         assert errs == ["missing PACK.yaml"], errs
 
-    # (9) the live tree is orchestrator-only: the stub pack passes and zero
-    # live content packs exist (read-only)
+    # (9) the live tree carries the orchestrator stub plus the flipped
+    # content pack (read-only)
     live = REPO_ROOT / "packs" / "med"
     assert live.is_dir(), f"live orchestrator pack missing: {live}"
     assert validate_pack.check_pack(live) == [], validate_pack.check_pack(live)
     live_slugs = sorted(p.name for p in (REPO_ROOT / "packs").iterdir() if p.is_dir())
-    assert live_slugs == ["med"], live_slugs
+    assert live_slugs == ["fda-med-device", "med"], live_slugs
 
     print("validate_pack tests: OK")
     return 0

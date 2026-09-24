@@ -131,7 +131,7 @@ ROUTING_MAP_PAIR = [
     ("public domain prefix", "Public Domain"),
 ]
 
-# Empty-tree constant pins (Task 5 twin values). Each literal must appear
+# Live-catalogue constant pins (Task 10 twin values). Each literal must appear
 # verbatim in validate.yml's data-invariants step AND in the named twin.
 EMPTY_TREE_PAIR = [
     (

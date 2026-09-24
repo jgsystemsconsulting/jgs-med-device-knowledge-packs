@@ -32,7 +32,7 @@ MAP_PATH = ROOT / "docs" / "capability-pack-map.json"
 MD_PATH = ROOT / "docs" / "capability-pack-map.md"
 
 # Empty-tree template corpus size; bump with overrides notes on mint.
-EXPECTED_NOTES_COUNT = 0
+EXPECTED_NOTES_COUNT = 14
 
 SUPPORT_SUFFIX = " (support file)"
 MAP_VERSION_RE = re.compile(r"^\d+\.\d+\.\d+$")

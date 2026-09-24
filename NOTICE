@@ -19,17 +19,16 @@ This product contains two separately licensed layers:
 Third-party source attributions (one block per shipped content pack)
 -----------------------------------------------------------------------------------
 
-<!-- TEMPLATE PLACEHOLDER: the template ships no pack content. When a pack is ported
-     or created, append one attribution block here in the exemplar format:
-
-[pack: <slug>]
-  Source : <full source title, version, and identifier>
-  Author : <publishing organisation>
-  Licence: <licence name and URL, or public-domain basis>
-  Changes: <how the pack relates to the source>
-  Terms  : <binding conditions and caveats, ending with a pointer to
-            packs/<slug>/LICENSE>
--->
+[pack: fda-med-device]
+  Source : U.S. Food and Drug Administration guidance documents (13-row set
+           pinned 2026-09-24; titles in packs/fda-med-device/LICENSE)
+  Author : U.S. Food and Drug Administration (FDA)
+  Licence: Public Domain -- US Government work (17 U.S.C. 105)
+  Changes: reconstructed as synthesized reference notes (not a reproduction)
+  Terms  : public domain, no copyright. The reconstructed reference notes are by
+           JG Systems Consulting Ltd. Attribution to the FDA is courtesy, not
+           obligation; the FDA is not affiliated with, nor does it endorse, this
+           pack. See packs/fda-med-device/LICENSE.
 
 -----------------------------------------------------------------------------------
 Pack content derives from publications of the U.S. Food and Drug Administration

@@ -123,6 +123,8 @@ noted and skipped; if none remain, fall back to route-only.
 
 - No Medical Device claim without a citation from a pack file read this session.
 - The map is curated, not exhaustive. Agency rows are a filter, not an endorsement.
+- EU/UK medical device guidance (med-device-eu) is planned and not yet in the
+  catalogue, so `/med` names the gap and makes no EU claims.
 - At most six packs per Topics row. At most four packs read per answer.
 - Deliverable stage chains come only from Deliverables rows; empty cells skip that stage.
 - `/med` never overwrites an existing file without a yes at a gate.

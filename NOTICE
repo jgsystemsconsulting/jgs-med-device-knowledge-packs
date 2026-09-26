@@ -30,10 +30,31 @@ Third-party source attributions (one block per shipped content pack)
            obligation; the FDA is not affiliated with, nor does it endorse, this
            pack. See packs/fda-med-device/LICENSE.
 
+[pack: med-device-eu]
+  Source : Medical Device Coordination Group guidance (MDCG 2019-11 Rev.1,
+           MDCG 2020-1, MDCG 2019-16 Rev.1), Regulation (EU) 2017/745
+           software slice (CELEX 32017R0745), and Medicines and Healthcare
+           products Regulatory Agency guidance (stand-alone software v1.10f;
+           regulating medical devices in the UK, page updated 2026-02-20).
+           Pinned 2026-09-26. Titles in packs/med-device-eu/LICENSE.
+  Author : Medical Device Coordination Group; European Union; Medicines and
+           Healthcare products Regulatory Agency (Crown copyright)
+  Licence: Per-document. MDR text reused under the EUR-Lex legal notice.
+           MHRA sources under the Open Government Licence v3.0. MDCG guidance
+           reconstructed with attribution; reuse basis pending per-document
+           determination. Pack-level commercial use is not granted.
+  Changes: reconstructed as synthesized reference notes (not a reproduction)
+  Terms  : The European Commission, the MDCG, and MHRA do not endorse this
+           pack. The MDCG documents are not European Commission documents and
+           are not legally binding. See packs/med-device-eu/LICENSE.
+
 -----------------------------------------------------------------------------------
 Pack content derives from publications of the U.S. Food and Drug Administration
 (FDA). Courtesy attribution is given to the FDA as the original publisher; the FDA
-is not affiliated with, nor does it endorse, this product.
+is not affiliated with, nor does it endorse, this product. Pack content also
+derives from MDCG guidance hosted by the European Commission, from Regulation
+(EU) 2017/745, and from MHRA guidance. None of those publishers endorses this
+product.
 -----------------------------------------------------------------------------------
 
 The build pipeline uses the jgs-reference-skill extraction engine (MIT License,

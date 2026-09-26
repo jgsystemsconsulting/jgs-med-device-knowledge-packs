@@ -7,7 +7,7 @@ SPDX-License-Identifier: MIT
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT%20(tooling)-blue" alt="License: MIT (tooling)">
-  <img src="https://img.shields.io/badge/version-0.1.0-green" alt="Version 0.1.0">
+  <img src="https://img.shields.io/badge/version-0.2.0-green" alt="Version 0.2.0">
 </p>
 
 <p align="center">
@@ -17,7 +17,11 @@ SPDX-License-Identifier: MIT
   validation, the Quality Management System Regulation (QMSR), cybersecurity, and
   premarket submissions; the /med orchestrator routes free-text sector questions to
   the right pack. This catalogue provides engineering knowledge, not legal or
-  regulatory advice; EU/UK guidance packs are forthcoming.</strong>
+  regulatory advice. The med-device-eu pack distills six EU and UK sources
+  (MDCG 2019-11 Rev.1, the MDR 2017/745 software slice, MDCG 2020-1, MHRA
+  stand-alone software v1.10f, the MHRA regulating-medical-devices page, and
+  MDCG 2019-16 Rev.1) into reference notes on MDSW qualification, Rule 11,
+  clinical evaluation, cybersecurity, and the UKCA/CE route.</strong>
 </p>
 
 **Copyright (c) 2026 JG Systems Consulting Ltd. - MIT License (tooling); pack content under each source's own licence (see [NOTICE](NOTICE)).**
